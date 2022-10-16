@@ -11,8 +11,4 @@ module.exports = class Page {
         return browser.url(`http://uitestingplayground.com/${path}`)
     }
 
-    // waitUntilLoaded(cssSelector){
-    //     let result =  browser.waitUntil($(), 15000);
-    //     return result;
-    // }
 }
