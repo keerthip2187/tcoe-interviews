@@ -8,8 +8,7 @@ class AjaxDataPage extends Page {
     }
 
     async triggerAjaxRequest() {
-        await this.triggerAjaxRequestElement.click();
-       
+        await this.triggerAjaxRequestElement.click(); 
     }
     
     open () {
